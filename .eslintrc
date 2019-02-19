@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+    }
+  },
+
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "key-spacing": ["warn", {
+      "multiLine": {"align": "value"}
+    }],
+    "object-curly-newline": ["warn", { "multiline": true, "minProperties": 5 }],
+    "object-property-newline": ["warn", {"allowAllPropertiesOnSameLine": true }],
+    "object-curly-spacing": ["warn", "always", {
+      "arraysInObjects": false,
+      "objectsInObjects": false
+    }]
+  }
+}

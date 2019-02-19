@@ -1,0 +1,16 @@
+{
+  "name": "eslint-align-check",
+  "version": "1.0.0",
+  "description": "test-repo: key-spacing + align: 'value' + jsx objects becomes ugly sometimes",
+  "main": "file.jsx",
+  "scripts": {
+    "test": "eslint --fix file.jsx"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
